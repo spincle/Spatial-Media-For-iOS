@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA96F76F1DF452B000BA8A21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA96F76E1DF452B000BA8A21 /* main.m */; };
+		EA96F7721DF452B000BA8A21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA96F7711DF452B000BA8A21 /* AppDelegate.m */; };
+		EA96F7751DF452B000BA8A21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA96F7741DF452B000BA8A21 /* ViewController.m */; };
+		EA96F7781DF452B000BA8A21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7761DF452B000BA8A21 /* Main.storyboard */; };
+		EA96F77A1DF452B000BA8A21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7791DF452B000BA8A21 /* Assets.xcassets */; };
+		EA96F77D1DF452B000BA8A21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA96F77B1DF452B000BA8A21 /* LaunchScreen.storyboard */; };
+		EA96F7881DF452B000BA8A21 /* iOSspatialMediaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA96F7871DF452B000BA8A21 /* iOSspatialMediaTests.m */; };
+		EA96F7931DF452B000BA8A21 /* iOSspatialMediaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA96F7921DF452B000BA8A21 /* iOSspatialMediaUITests.m */; };
+		EA96F7A21DF4535000BA8A21 /* PythonistaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA96F7A11DF4535000BA8A21 /* PythonistaKit.framework */; };
+		EA96F7B31DF45D1D00BA8A21 /* __init__.py in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7A41DF45D1D00BA8A21 /* __init__.py */; };
+		EA96F7B41DF45D1D00BA8A21 /* gui.py in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7A51DF45D1D00BA8A21 /* gui.py */; };
+		EA96F7B51DF45D1D00BA8A21 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7A61DF45D1D00BA8A21 /* LICENSE */; };
+		EA96F7B61DF45D1D00BA8A21 /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7A71DF45D1D00BA8A21 /* main.py */; };
+		EA96F7B71DF45D1D00BA8A21 /* metadata_utils.py in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7A81DF45D1D00BA8A21 /* metadata_utils.py */; };
+		EA96F7B81DF45D1D00BA8A21 /* __init__.py in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7AA1DF45D1D00BA8A21 /* __init__.py */; };
+		EA96F7B91DF45D1D00BA8A21 /* box.py in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7AB1DF45D1D00BA8A21 /* box.py */; };
+		EA96F7BA1DF45D1D00BA8A21 /* constants.py in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7AC1DF45D1D00BA8A21 /* constants.py */; };
+		EA96F7BB1DF45D1D00BA8A21 /* container.py in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7AD1DF45D1D00BA8A21 /* container.py */; };
+		EA96F7BC1DF45D1D00BA8A21 /* mpeg4_container.py in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7AE1DF45D1D00BA8A21 /* mpeg4_container.py */; };
+		EA96F7BD1DF45D1D00BA8A21 /* sa3d.py in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7AF1DF45D1D00BA8A21 /* sa3d.py */; };
+		EA96F7BE1DF45D1D00BA8A21 /* parse.py in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7B01DF45D1D00BA8A21 /* parse.py */; };
+		EA96F7BF1DF45D1D00BA8A21 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EA96F7B11DF45D1D00BA8A21 /* README.md */; };
+		EA96F7C01DF45D1D00BA8A21 /* spatial_media_metadata_injector.spec in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7B21DF45D1D00BA8A21 /* spatial_media_metadata_injector.spec */; };
+		EA96F7C31DF45D9400BA8A21 /* metadataInjector.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA96F7C21DF45D9400BA8A21 /* metadataInjector.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA96F7841DF452B000BA8A21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA96F7621DF452B000BA8A21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA96F7691DF452B000BA8A21;
+			remoteInfo = iOSspatialMedia;
+		};
+		EA96F78F1DF452B000BA8A21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA96F7621DF452B000BA8A21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA96F7691DF452B000BA8A21;
+			remoteInfo = iOSspatialMedia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA390C1A1DFDB01700074A22 /* video-1024x512.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "video-1024x512.mp4"; sourceTree = "<group>"; };
+		EA96F76A1DF452B000BA8A21 /* iOSspatialMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSspatialMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA96F76E1DF452B000BA8A21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA96F7701DF452B000BA8A21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA96F7711DF452B000BA8A21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA96F7731DF452B000BA8A21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA96F7741DF452B000BA8A21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA96F7771DF452B000BA8A21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA96F7791DF452B000BA8A21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA96F77C1DF452B000BA8A21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA96F77E1DF452B000BA8A21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA96F7831DF452B000BA8A21 /* iOSspatialMediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSspatialMediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA96F7871DF452B000BA8A21 /* iOSspatialMediaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSspatialMediaTests.m; sourceTree = "<group>"; };
+		EA96F7891DF452B000BA8A21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA96F78E1DF452B000BA8A21 /* iOSspatialMediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSspatialMediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA96F7921DF452B000BA8A21 /* iOSspatialMediaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSspatialMediaUITests.m; sourceTree = "<group>"; };
+		EA96F7941DF452B000BA8A21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA96F7A11DF4535000BA8A21 /* PythonistaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PythonistaKit.framework; sourceTree = "<group>"; };
+		EA96F7A41DF45D1D00BA8A21 /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		EA96F7A51DF45D1D00BA8A21 /* gui.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = gui.py; sourceTree = "<group>"; };
+		EA96F7A61DF45D1D00BA8A21 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EA96F7A71DF45D1D00BA8A21 /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+		EA96F7A81DF45D1D00BA8A21 /* metadata_utils.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = metadata_utils.py; sourceTree = "<group>"; };
+		EA96F7AA1DF45D1D00BA8A21 /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		EA96F7AB1DF45D1D00BA8A21 /* box.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = box.py; sourceTree = "<group>"; };
+		EA96F7AC1DF45D1D00BA8A21 /* constants.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = constants.py; sourceTree = "<group>"; };
+		EA96F7AD1DF45D1D00BA8A21 /* container.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = container.py; sourceTree = "<group>"; };
+		EA96F7AE1DF45D1D00BA8A21 /* mpeg4_container.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = mpeg4_container.py; sourceTree = "<group>"; };
+		EA96F7AF1DF45D1D00BA8A21 /* sa3d.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = sa3d.py; sourceTree = "<group>"; };
+		EA96F7B01DF45D1D00BA8A21 /* parse.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = parse.py; sourceTree = "<group>"; };
+		EA96F7B11DF45D1D00BA8A21 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EA96F7B21DF45D1D00BA8A21 /* spatial_media_metadata_injector.spec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spatial_media_metadata_injector.spec; sourceTree = "<group>"; };
+		EA96F7C11DF45D9400BA8A21 /* metadataInjector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metadataInjector.h; sourceTree = "<group>"; };
+		EA96F7C21DF45D9400BA8A21 /* metadataInjector.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = metadataInjector.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA96F7671DF452B000BA8A21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA96F7A21DF4535000BA8A21 /* PythonistaKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA96F7801DF452B000BA8A21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA96F78B1DF452B000BA8A21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA96F7611DF452B000BA8A21 = {
+			isa = PBXGroup;
+			children = (
+				EA96F7A31DF45D1D00BA8A21 /* Script */,
+				EA96F7A01DF4533E00BA8A21 /* Framework */,
+				EA96F76C1DF452B000BA8A21 /* iOSspatialMedia */,
+				EA96F7861DF452B000BA8A21 /* iOSspatialMediaTests */,
+				EA96F7911DF452B000BA8A21 /* iOSspatialMediaUITests */,
+				EA96F76B1DF452B000BA8A21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA96F76B1DF452B000BA8A21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA96F76A1DF452B000BA8A21 /* iOSspatialMedia.app */,
+				EA96F7831DF452B000BA8A21 /* iOSspatialMediaTests.xctest */,
+				EA96F78E1DF452B000BA8A21 /* iOSspatialMediaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA96F76C1DF452B000BA8A21 /* iOSspatialMedia */ = {
+			isa = PBXGroup;
+			children = (
+				EA390C1A1DFDB01700074A22 /* video-1024x512.mp4 */,
+				EA96F7701DF452B000BA8A21 /* AppDelegate.h */,
+				EA96F7711DF452B000BA8A21 /* AppDelegate.m */,
+				EA96F7731DF452B000BA8A21 /* ViewController.h */,
+				EA96F7741DF452B000BA8A21 /* ViewController.m */,
+				EA96F7C11DF45D9400BA8A21 /* metadataInjector.h */,
+				EA96F7C21DF45D9400BA8A21 /* metadataInjector.mm */,
+				EA96F7761DF452B000BA8A21 /* Main.storyboard */,
+				EA96F7791DF452B000BA8A21 /* Assets.xcassets */,
+				EA96F77B1DF452B000BA8A21 /* LaunchScreen.storyboard */,
+				EA96F77E1DF452B000BA8A21 /* Info.plist */,
+				EA96F76D1DF452B000BA8A21 /* Supporting Files */,
+			);
+			path = iOSspatialMedia;
+			sourceTree = "<group>";
+		};
+		EA96F76D1DF452B000BA8A21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA96F76E1DF452B000BA8A21 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA96F7861DF452B000BA8A21 /* iOSspatialMediaTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA96F7871DF452B000BA8A21 /* iOSspatialMediaTests.m */,
+				EA96F7891DF452B000BA8A21 /* Info.plist */,
+			);
+			path = iOSspatialMediaTests;
+			sourceTree = "<group>";
+		};
+		EA96F7911DF452B000BA8A21 /* iOSspatialMediaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA96F7921DF452B000BA8A21 /* iOSspatialMediaUITests.m */,
+				EA96F7941DF452B000BA8A21 /* Info.plist */,
+			);
+			path = iOSspatialMediaUITests;
+			sourceTree = "<group>";
+		};
+		EA96F7A01DF4533E00BA8A21 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				EA96F7A11DF4535000BA8A21 /* PythonistaKit.framework */,
+			);
+			name = Framework;
+			path = iOSspatialMedia;
+			sourceTree = "<group>";
+		};
+		EA96F7A31DF45D1D00BA8A21 /* Script */ = {
+			isa = PBXGroup;
+			children = (
+				EA96F7A41DF45D1D00BA8A21 /* __init__.py */,
+				EA96F7A51DF45D1D00BA8A21 /* gui.py */,
+				EA96F7A61DF45D1D00BA8A21 /* LICENSE */,
+				EA96F7A71DF45D1D00BA8A21 /* main.py */,
+				EA96F7A81DF45D1D00BA8A21 /* metadata_utils.py */,
+				EA96F7A91DF45D1D00BA8A21 /* mpeg */,
+				EA96F7B01DF45D1D00BA8A21 /* parse.py */,
+				EA96F7B11DF45D1D00BA8A21 /* README.md */,
+				EA96F7B21DF45D1D00BA8A21 /* spatial_media_metadata_injector.spec */,
+			);
+			path = Script;
+			sourceTree = "<group>";
+		};
+		EA96F7A91DF45D1D00BA8A21 /* mpeg */ = {
+			isa = PBXGroup;
+			children = (
+				EA96F7AA1DF45D1D00BA8A21 /* __init__.py */,
+				EA96F7AB1DF45D1D00BA8A21 /* box.py */,
+				EA96F7AC1DF45D1D00BA8A21 /* constants.py */,
+				EA96F7AD1DF45D1D00BA8A21 /* container.py */,
+				EA96F7AE1DF45D1D00BA8A21 /* mpeg4_container.py */,
+				EA96F7AF1DF45D1D00BA8A21 /* sa3d.py */,
+			);
+			path = mpeg;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA96F7691DF452B000BA8A21 /* iOSspatialMedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA96F7971DF452B000BA8A21 /* Build configuration list for PBXNativeTarget "iOSspatialMedia" */;
+			buildPhases = (
+				EA96F7661DF452B000BA8A21 /* Sources */,
+				EA96F7671DF452B000BA8A21 /* Frameworks */,
+				EA96F7681DF452B000BA8A21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSspatialMedia;
+			productName = iOSspatialMedia;
+			productReference = EA96F76A1DF452B000BA8A21 /* iOSspatialMedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA96F7821DF452B000BA8A21 /* iOSspatialMediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA96F79A1DF452B000BA8A21 /* Build configuration list for PBXNativeTarget "iOSspatialMediaTests" */;
+			buildPhases = (
+				EA96F77F1DF452B000BA8A21 /* Sources */,
+				EA96F7801DF452B000BA8A21 /* Frameworks */,
+				EA96F7811DF452B000BA8A21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA96F7851DF452B000BA8A21 /* PBXTargetDependency */,
+			);
+			name = iOSspatialMediaTests;
+			productName = iOSspatialMediaTests;
+			productReference = EA96F7831DF452B000BA8A21 /* iOSspatialMediaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA96F78D1DF452B000BA8A21 /* iOSspatialMediaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA96F79D1DF452B000BA8A21 /* Build configuration list for PBXNativeTarget "iOSspatialMediaUITests" */;
+			buildPhases = (
+				EA96F78A1DF452B000BA8A21 /* Sources */,
+				EA96F78B1DF452B000BA8A21 /* Frameworks */,
+				EA96F78C1DF452B000BA8A21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA96F7901DF452B000BA8A21 /* PBXTargetDependency */,
+			);
+			name = iOSspatialMediaUITests;
+			productName = iOSspatialMediaUITests;
+			productReference = EA96F78E1DF452B000BA8A21 /* iOSspatialMediaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA96F7621DF452B000BA8A21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Tom Tong";
+				TargetAttributes = {
+					EA96F7691DF452B000BA8A21 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6Y5LP6LEY2;
+						ProvisioningStyle = Automatic;
+					};
+					EA96F7821DF452B000BA8A21 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6Y5LP6LEY2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA96F7691DF452B000BA8A21;
+					};
+					EA96F78D1DF452B000BA8A21 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6Y5LP6LEY2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA96F7691DF452B000BA8A21;
+					};
+				};
+			};
+			buildConfigurationList = EA96F7651DF452B000BA8A21 /* Build configuration list for PBXProject "iOSspatialMedia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA96F7611DF452B000BA8A21;
+			productRefGroup = EA96F76B1DF452B000BA8A21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA96F7691DF452B000BA8A21 /* iOSspatialMedia */,
+				EA96F7821DF452B000BA8A21 /* iOSspatialMediaTests */,
+				EA96F78D1DF452B000BA8A21 /* iOSspatialMediaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA96F7681DF452B000BA8A21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA96F7B91DF45D1D00BA8A21 /* box.py in Resources */,
+				EA96F7B61DF45D1D00BA8A21 /* main.py in Resources */,
+				EA96F7BE1DF45D1D00BA8A21 /* parse.py in Resources */,
+				EA96F7B71DF45D1D00BA8A21 /* metadata_utils.py in Resources */,
+				EA96F7B51DF45D1D00BA8A21 /* LICENSE in Resources */,
+				EA96F7B41DF45D1D00BA8A21 /* gui.py in Resources */,
+				EA96F7B81DF45D1D00BA8A21 /* __init__.py in Resources */,
+				EA96F7C01DF45D1D00BA8A21 /* spatial_media_metadata_injector.spec in Resources */,
+				EA96F77D1DF452B000BA8A21 /* LaunchScreen.storyboard in Resources */,
+				EA96F77A1DF452B000BA8A21 /* Assets.xcassets in Resources */,
+				EA96F7BA1DF45D1D00BA8A21 /* constants.py in Resources */,
+				EA96F7BC1DF45D1D00BA8A21 /* mpeg4_container.py in Resources */,
+				EA96F7B31DF45D1D00BA8A21 /* __init__.py in Resources */,
+				EA96F7BD1DF45D1D00BA8A21 /* sa3d.py in Resources */,
+				EA96F7BB1DF45D1D00BA8A21 /* container.py in Resources */,
+				EA96F7781DF452B000BA8A21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA96F7811DF452B000BA8A21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA96F78C1DF452B000BA8A21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA96F7661DF452B000BA8A21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA96F7751DF452B000BA8A21 /* ViewController.m in Sources */,
+				EA96F7721DF452B000BA8A21 /* AppDelegate.m in Sources */,
+				EA96F7BF1DF45D1D00BA8A21 /* README.md in Sources */,
+				EA96F76F1DF452B000BA8A21 /* main.m in Sources */,
+				EA96F7C31DF45D9400BA8A21 /* metadataInjector.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA96F77F1DF452B000BA8A21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA96F7881DF452B000BA8A21 /* iOSspatialMediaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA96F78A1DF452B000BA8A21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA96F7931DF452B000BA8A21 /* iOSspatialMediaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA96F7851DF452B000BA8A21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA96F7691DF452B000BA8A21 /* iOSspatialMedia */;
+			targetProxy = EA96F7841DF452B000BA8A21 /* PBXContainerItemProxy */;
+		};
+		EA96F7901DF452B000BA8A21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA96F7691DF452B000BA8A21 /* iOSspatialMedia */;
+			targetProxy = EA96F78F1DF452B000BA8A21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA96F7761DF452B000BA8A21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA96F7771DF452B000BA8A21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA96F77B1DF452B000BA8A21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA96F77C1DF452B000BA8A21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA96F7951DF452B000BA8A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA96F7961DF452B000BA8A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA96F7981DF452B000BA8A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6Y5LP6LEY2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOSspatialMedia",
+				);
+				INFOPLIST_FILE = iOSspatialMedia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holumino.spatialMedia.iOSspatialMedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA96F7991DF452B000BA8A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6Y5LP6LEY2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOSspatialMedia",
+				);
+				INFOPLIST_FILE = iOSspatialMedia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holumino.spatialMedia.iOSspatialMedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA96F79B1DF452B000BA8A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6Y5LP6LEY2;
+				INFOPLIST_FILE = iOSspatialMediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holumino.spatialMedia.iOSspatialMediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSspatialMedia.app/iOSspatialMedia";
+			};
+			name = Debug;
+		};
+		EA96F79C1DF452B000BA8A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6Y5LP6LEY2;
+				INFOPLIST_FILE = iOSspatialMediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holumino.spatialMedia.iOSspatialMediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSspatialMedia.app/iOSspatialMedia";
+			};
+			name = Release;
+		};
+		EA96F79E1DF452B000BA8A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6Y5LP6LEY2;
+				INFOPLIST_FILE = iOSspatialMediaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holumino.spatialMedia.iOSspatialMediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOSspatialMedia;
+			};
+			name = Debug;
+		};
+		EA96F79F1DF452B000BA8A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6Y5LP6LEY2;
+				INFOPLIST_FILE = iOSspatialMediaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holumino.spatialMedia.iOSspatialMediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOSspatialMedia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA96F7651DF452B000BA8A21 /* Build configuration list for PBXProject "iOSspatialMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA96F7951DF452B000BA8A21 /* Debug */,
+				EA96F7961DF452B000BA8A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA96F7971DF452B000BA8A21 /* Build configuration list for PBXNativeTarget "iOSspatialMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA96F7981DF452B000BA8A21 /* Debug */,
+				EA96F7991DF452B000BA8A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA96F79A1DF452B000BA8A21 /* Build configuration list for PBXNativeTarget "iOSspatialMediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA96F79B1DF452B000BA8A21 /* Debug */,
+				EA96F79C1DF452B000BA8A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA96F79D1DF452B000BA8A21 /* Build configuration list for PBXNativeTarget "iOSspatialMediaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA96F79E1DF452B000BA8A21 /* Debug */,
+				EA96F79F1DF452B000BA8A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA96F7621DF452B000BA8A21 /* Project object */;
+}
