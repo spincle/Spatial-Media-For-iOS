@@ -57,14 +57,6 @@
     return mainScriptFile;
 }
 
--(NSURL*) returnResultVideoPath
-{
-    NSString *appSupportDirectory = [NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory, NSUserDomainMask, YES) firstObject];
-    NSString *writableScriptDirectory = [appSupportDirectory stringByAppendingPathComponent:@"spatialmedia"];
-    NSString* resultPath=[writableScriptDirectory stringByAppendingPathComponent:@"resultvideo.mp4"];
-    NSURL* resultURL=[NSURL fileURLWithPath:resultPath];
-    return resultURL;
-}
 
 -(NSURL *) insertMetadataWithMovie:(NSURL*)inputPath
 {
@@ -75,28 +67,9 @@
     NSString* processPath=[writableScriptDirectory stringByAppendingPathComponent:@"HDtest.mp4"];
     
     NSString* resultPath=[writableScriptDirectory stringByAppendingPathComponent:@"resultvideo.mp4"];
-    NSString* backupPath=[writableScriptDirectory stringByAppendingPathComponent:@"resultvideo2.mp4"];
     
-     NSFileManager* fileManager=[NSFileManager defaultManager];
-//    if (![fileManager removeItemAtPath:resultPath error:NULL])
-//    {
-//        NSLog(@"remove error");
-//    }
-//    else
-//    {
-//        NSLog(@"resultPath remove succeed");
-//    }
-//   
-//    if (![fileManager removeItemAtPath:processPath error:NULL])
-//
-//    {
-//        NSLog(@"remove error");
-//    }
-//    else
-//    {
-//        NSLog(@"processPath remove succeed");
-//    }
- 
+    NSFileManager* fileManager=[NSFileManager defaultManager];
+ [  fileManager removeItemAtPath:resultPath error:NULL];
     if (![fileManager copyItemAtPath:[inputPath path] toPath:processPath error:NULL])
     {
         NSLog(@"copy not succeed");
@@ -104,40 +77,15 @@
     
     [self runPythonScript];
     
-//        NSOperationQueue *queue=[[NSOperationQueue alloc] init];
-//        NSBlockOperation *blockOperation=[NSBlockOperation blockOperationWithBlock:^(void){
-//                [self runPythonScript];
-//        }];
-//        
-//        blockOperation.completionBlock=^(void){
-//            [fileManager removeItemAtPath:[inputPath path] error:NULL];
-//            [fileManager copyItemAtPath:resultPath toPath:[inputPath path] error:NULL];
-//            [[NSNotificationCenter defaultCenter] postNotificationName:@"openSharePanel" object:nil];
-//        };
-//        [queue addOperation:blockOperation];
-
-    
     double delayInSeconds = 4;
     dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
     dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
-        
-        [fileManager copyItemAtPath:[inputPath path] toPath:backupPath error:nil];
-        [fileManager removeItemAtPath:[inputPath path] error:NULL];
         NSError*err;
-        
-        if(! [fileManager copyItemAtPath:resultPath toPath:[inputPath path] error:&err])
-        {
-            NSLog(@"copy error %@",[err description]);
-            [fileManager copyItemAtPath:backupPath toPath:[inputPath path] error:nil];
-        }
-
-        [fileManager removeItemAtPath:resultPath error:NULL];
-        [fileManager removeItemAtPath:backupPath error:NULL];
-        [fileManager removeItemAtPath:processPath error:NULL];
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"openFBshare" object:nil];
+        [fileManager removeItemAtPath:processPath error:&err];
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"callbackAfterMetadataInserted" object:nil];
     });
 
-   return inputPath;
+   return [NSURL fileURLWithPath:resultPath];
 }
 
 @end

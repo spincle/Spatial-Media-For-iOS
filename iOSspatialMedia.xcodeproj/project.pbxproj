@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA390C1C1DFDBA8200074A22 /* sample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EA390C1A1DFDB01700074A22 /* sample.mp4 */; };
+		EA390C201DFDBF8600074A22 /* PythonistaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA96F7A11DF4535000BA8A21 /* PythonistaKit.framework */; };
 		EA96F76F1DF452B000BA8A21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA96F76E1DF452B000BA8A21 /* main.m */; };
 		EA96F7721DF452B000BA8A21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA96F7711DF452B000BA8A21 /* AppDelegate.m */; };
 		EA96F7751DF452B000BA8A21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA96F7741DF452B000BA8A21 /* ViewController.m */; };
@@ -15,22 +17,9 @@
 		EA96F77D1DF452B000BA8A21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA96F77B1DF452B000BA8A21 /* LaunchScreen.storyboard */; };
 		EA96F7881DF452B000BA8A21 /* iOSspatialMediaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA96F7871DF452B000BA8A21 /* iOSspatialMediaTests.m */; };
 		EA96F7931DF452B000BA8A21 /* iOSspatialMediaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA96F7921DF452B000BA8A21 /* iOSspatialMediaUITests.m */; };
-		EA96F7A21DF4535000BA8A21 /* PythonistaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA96F7A11DF4535000BA8A21 /* PythonistaKit.framework */; };
-		EA96F7B31DF45D1D00BA8A21 /* __init__.py in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7A41DF45D1D00BA8A21 /* __init__.py */; };
-		EA96F7B41DF45D1D00BA8A21 /* gui.py in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7A51DF45D1D00BA8A21 /* gui.py */; };
-		EA96F7B51DF45D1D00BA8A21 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7A61DF45D1D00BA8A21 /* LICENSE */; };
-		EA96F7B61DF45D1D00BA8A21 /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7A71DF45D1D00BA8A21 /* main.py */; };
-		EA96F7B71DF45D1D00BA8A21 /* metadata_utils.py in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7A81DF45D1D00BA8A21 /* metadata_utils.py */; };
-		EA96F7B81DF45D1D00BA8A21 /* __init__.py in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7AA1DF45D1D00BA8A21 /* __init__.py */; };
-		EA96F7B91DF45D1D00BA8A21 /* box.py in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7AB1DF45D1D00BA8A21 /* box.py */; };
-		EA96F7BA1DF45D1D00BA8A21 /* constants.py in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7AC1DF45D1D00BA8A21 /* constants.py */; };
-		EA96F7BB1DF45D1D00BA8A21 /* container.py in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7AD1DF45D1D00BA8A21 /* container.py */; };
-		EA96F7BC1DF45D1D00BA8A21 /* mpeg4_container.py in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7AE1DF45D1D00BA8A21 /* mpeg4_container.py */; };
-		EA96F7BD1DF45D1D00BA8A21 /* sa3d.py in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7AF1DF45D1D00BA8A21 /* sa3d.py */; };
-		EA96F7BE1DF45D1D00BA8A21 /* parse.py in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7B01DF45D1D00BA8A21 /* parse.py */; };
-		EA96F7BF1DF45D1D00BA8A21 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EA96F7B11DF45D1D00BA8A21 /* README.md */; };
-		EA96F7C01DF45D1D00BA8A21 /* spatial_media_metadata_injector.spec in Resources */ = {isa = PBXBuildFile; fileRef = EA96F7B21DF45D1D00BA8A21 /* spatial_media_metadata_injector.spec */; };
 		EA96F7C31DF45D9400BA8A21 /* metadataInjector.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA96F7C21DF45D9400BA8A21 /* metadataInjector.mm */; };
+		EAA3EECA1E01964400A910D1 /* PythonistaKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EA96F7A11DF4535000BA8A21 /* PythonistaKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EAA3EECC1E01966600A910D1 /* Script in Resources */ = {isa = PBXBuildFile; fileRef = EAA3EECB1E01966600A910D1 /* Script */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +39,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		EA390C221DFDBF8600074A22 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EAA3EECA1E01964400A910D1 /* PythonistaKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		EA390C1A1DFDB01700074A22 /* video-1024x512.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "video-1024x512.mp4"; sourceTree = "<group>"; };
+		EA390C1A1DFDB01700074A22 /* sample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.mp4; sourceTree = "<group>"; };
 		EA96F76A1DF452B000BA8A21 /* iOSspatialMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSspatialMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA96F76E1DF452B000BA8A21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA96F7701DF452B000BA8A21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,22 +72,9 @@
 		EA96F7921DF452B000BA8A21 /* iOSspatialMediaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSspatialMediaUITests.m; sourceTree = "<group>"; };
 		EA96F7941DF452B000BA8A21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA96F7A11DF4535000BA8A21 /* PythonistaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PythonistaKit.framework; sourceTree = "<group>"; };
-		EA96F7A41DF45D1D00BA8A21 /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
-		EA96F7A51DF45D1D00BA8A21 /* gui.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = gui.py; sourceTree = "<group>"; };
-		EA96F7A61DF45D1D00BA8A21 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		EA96F7A71DF45D1D00BA8A21 /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
-		EA96F7A81DF45D1D00BA8A21 /* metadata_utils.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = metadata_utils.py; sourceTree = "<group>"; };
-		EA96F7AA1DF45D1D00BA8A21 /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
-		EA96F7AB1DF45D1D00BA8A21 /* box.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = box.py; sourceTree = "<group>"; };
-		EA96F7AC1DF45D1D00BA8A21 /* constants.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = constants.py; sourceTree = "<group>"; };
-		EA96F7AD1DF45D1D00BA8A21 /* container.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = container.py; sourceTree = "<group>"; };
-		EA96F7AE1DF45D1D00BA8A21 /* mpeg4_container.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = mpeg4_container.py; sourceTree = "<group>"; };
-		EA96F7AF1DF45D1D00BA8A21 /* sa3d.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = sa3d.py; sourceTree = "<group>"; };
-		EA96F7B01DF45D1D00BA8A21 /* parse.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = parse.py; sourceTree = "<group>"; };
-		EA96F7B11DF45D1D00BA8A21 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		EA96F7B21DF45D1D00BA8A21 /* spatial_media_metadata_injector.spec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spatial_media_metadata_injector.spec; sourceTree = "<group>"; };
 		EA96F7C11DF45D9400BA8A21 /* metadataInjector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metadataInjector.h; sourceTree = "<group>"; };
 		EA96F7C21DF45D9400BA8A21 /* metadataInjector.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = metadataInjector.mm; sourceTree = "<group>"; };
+		EAA3EECB1E01966600A910D1 /* Script */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Script; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA96F7A21DF4535000BA8A21 /* PythonistaKit.framework in Frameworks */,
+				EA390C201DFDBF8600074A22 /* PythonistaKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +106,7 @@
 		EA96F7611DF452B000BA8A21 = {
 			isa = PBXGroup;
 			children = (
-				EA96F7A31DF45D1D00BA8A21 /* Script */,
+				EAA3EECB1E01966600A910D1 /* Script */,
 				EA96F7A01DF4533E00BA8A21 /* Framework */,
 				EA96F76C1DF452B000BA8A21 /* iOSspatialMedia */,
 				EA96F7861DF452B000BA8A21 /* iOSspatialMediaTests */,
@@ -138,7 +128,7 @@
 		EA96F76C1DF452B000BA8A21 /* iOSspatialMedia */ = {
 			isa = PBXGroup;
 			children = (
-				EA390C1A1DFDB01700074A22 /* video-1024x512.mp4 */,
+				EA390C1A1DFDB01700074A22 /* sample.mp4 */,
 				EA96F7701DF452B000BA8A21 /* AppDelegate.h */,
 				EA96F7711DF452B000BA8A21 /* AppDelegate.m */,
 				EA96F7731DF452B000BA8A21 /* ViewController.h */,
@@ -189,35 +179,6 @@
 			path = iOSspatialMedia;
 			sourceTree = "<group>";
 		};
-		EA96F7A31DF45D1D00BA8A21 /* Script */ = {
-			isa = PBXGroup;
-			children = (
-				EA96F7A41DF45D1D00BA8A21 /* __init__.py */,
-				EA96F7A51DF45D1D00BA8A21 /* gui.py */,
-				EA96F7A61DF45D1D00BA8A21 /* LICENSE */,
-				EA96F7A71DF45D1D00BA8A21 /* main.py */,
-				EA96F7A81DF45D1D00BA8A21 /* metadata_utils.py */,
-				EA96F7A91DF45D1D00BA8A21 /* mpeg */,
-				EA96F7B01DF45D1D00BA8A21 /* parse.py */,
-				EA96F7B11DF45D1D00BA8A21 /* README.md */,
-				EA96F7B21DF45D1D00BA8A21 /* spatial_media_metadata_injector.spec */,
-			);
-			path = Script;
-			sourceTree = "<group>";
-		};
-		EA96F7A91DF45D1D00BA8A21 /* mpeg */ = {
-			isa = PBXGroup;
-			children = (
-				EA96F7AA1DF45D1D00BA8A21 /* __init__.py */,
-				EA96F7AB1DF45D1D00BA8A21 /* box.py */,
-				EA96F7AC1DF45D1D00BA8A21 /* constants.py */,
-				EA96F7AD1DF45D1D00BA8A21 /* container.py */,
-				EA96F7AE1DF45D1D00BA8A21 /* mpeg4_container.py */,
-				EA96F7AF1DF45D1D00BA8A21 /* sa3d.py */,
-			);
-			path = mpeg;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -228,6 +189,7 @@
 				EA96F7661DF452B000BA8A21 /* Sources */,
 				EA96F7671DF452B000BA8A21 /* Frameworks */,
 				EA96F7681DF452B000BA8A21 /* Resources */,
+				EA390C221DFDBF8600074A22 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -327,22 +289,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA96F7B91DF45D1D00BA8A21 /* box.py in Resources */,
-				EA96F7B61DF45D1D00BA8A21 /* main.py in Resources */,
-				EA96F7BE1DF45D1D00BA8A21 /* parse.py in Resources */,
-				EA96F7B71DF45D1D00BA8A21 /* metadata_utils.py in Resources */,
-				EA96F7B51DF45D1D00BA8A21 /* LICENSE in Resources */,
-				EA96F7B41DF45D1D00BA8A21 /* gui.py in Resources */,
-				EA96F7B81DF45D1D00BA8A21 /* __init__.py in Resources */,
-				EA96F7C01DF45D1D00BA8A21 /* spatial_media_metadata_injector.spec in Resources */,
+				EAA3EECC1E01966600A910D1 /* Script in Resources */,
 				EA96F77D1DF452B000BA8A21 /* LaunchScreen.storyboard in Resources */,
 				EA96F77A1DF452B000BA8A21 /* Assets.xcassets in Resources */,
-				EA96F7BA1DF45D1D00BA8A21 /* constants.py in Resources */,
-				EA96F7BC1DF45D1D00BA8A21 /* mpeg4_container.py in Resources */,
-				EA96F7B31DF45D1D00BA8A21 /* __init__.py in Resources */,
-				EA96F7BD1DF45D1D00BA8A21 /* sa3d.py in Resources */,
-				EA96F7BB1DF45D1D00BA8A21 /* container.py in Resources */,
 				EA96F7781DF452B000BA8A21 /* Main.storyboard in Resources */,
+				EA390C1C1DFDBA8200074A22 /* sample.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,7 +320,6 @@
 			files = (
 				EA96F7751DF452B000BA8A21 /* ViewController.m in Sources */,
 				EA96F7721DF452B000BA8A21 /* AppDelegate.m in Sources */,
-				EA96F7BF1DF45D1D00BA8A21 /* README.md in Sources */,
 				EA96F76F1DF452B000BA8A21 /* main.m in Sources */,
 				EA96F7C31DF45D9400BA8A21 /* metadataInjector.mm in Sources */,
 			);
@@ -450,6 +400,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -497,6 +448,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -519,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6Y5LP6LEY2;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/iOSspatialMedia",
@@ -535,6 +488,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6Y5LP6LEY2;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/iOSspatialMedia",

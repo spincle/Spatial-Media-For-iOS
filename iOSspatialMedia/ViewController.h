@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "metadataInjector.h"
+
+@import Photos;
 
 @interface ViewController : UIViewController
 
