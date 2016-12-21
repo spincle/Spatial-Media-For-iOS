@@ -16,10 +16,15 @@ You could do that in iPhone app now with this project.
 
 ### how to add your file into the project
 
-```The method used
+The method used
+```  objc
 -(NSURL *) insertMetadataWithMovie:(NSURL*)inputPath;
-```The callback method
+```
+
+The callback method
+```  objc
 -(void)callbackAfterMetadataInserted:(NSNotification *)note
+```  
 
 ### my contact email tomtomtongtong@gmail.com
 
