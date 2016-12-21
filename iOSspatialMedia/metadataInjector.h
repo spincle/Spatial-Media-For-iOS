@@ -8,7 +8,6 @@
 
 @interface metadataInjector : NSObject
 -(NSURL *) insertMetadataWithMovie:(NSURL*)inputPath;
--(NSURL*) returnResultVideoPath;
 
 @end
 
