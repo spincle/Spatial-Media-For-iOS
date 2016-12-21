@@ -9,6 +9,8 @@ objective-c template for inserting spatial media metadata into video with iPhone
 
 ![screenshot](./Screenshot/360Youtube.png)
 
+But your 360 video file needs to have metadata inserted for these platforms to treat them with 360 player
+You could do that in iPhone app now with this project.
 
 #methods
 
@@ -16,11 +18,11 @@ objective-c template for inserting spatial media metadata into video with iPhone
 
 ```The method used
 -(NSURL *) insertMetadataWithMovie:(NSURL*)inputPath;
-...The callback method
+```The callback method
 -(void)callbackAfterMetadataInserted:(NSNotification *)note
 
 ### my contact email tomtomtongtong@gmail.com
-```
+
 
 
 
