@@ -25,7 +25,6 @@ The callback method
 -(void)callbackAfterMetadataInserted:(NSNotification *)note
 ```  
 
-### my contact email tomtomtongtong@gmail.com
 
 
 
