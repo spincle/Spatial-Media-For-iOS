@@ -12,18 +12,14 @@ objective-c template for inserting spatial media metadata into video with iPhone
 But your 360 video file needs to have metadata inserted for these platforms to treat them with 360 player
 You could do that in iPhone app now with this project.
 
-### Lightweighted PythonistaKit framework is used in this project for running the Spatial Media python script in iOS
-The framework github is listed here. https://github.com/omz/PythonistaAppTemplate/tree/master/PythonistaAppTemplate/PythonistaKit.framework
+### This project uses the port from the python scripts provided by google to C++ by Varol Okan Thank him for his hard work.
+The repo is listed here. https://github.com/VarolOkan/spatial-media
 
 The method used
 ```  objc
--(NSURL *) insertMetadataWithMovie:(NSURL*)inputPath;
++(void)injectMetadataWithInputURL:(NSURL*)inputUrl withOutputURL:(NSURL*)outputUrl withSem:(dispatch_semaphore_t)sem
 ```
 
-The callback method
-```  objc
--(void)callbackAfterMetadataInserted:(NSNotification *)note
-```  
 
 
 

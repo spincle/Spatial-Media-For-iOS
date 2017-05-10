@@ -3,7 +3,7 @@
 //  iOSspatialMedia
 //
 //  Created by Tom Tong on 4/12/2016.
-//  Copyright © 2016 Tom Tong. All rights reserved.
+//  Copyright © 2016 Spincle Inc. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -16,14 +16,17 @@
 NSURL* videoUrl;
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(callbackAfterMetadataInserted:)
-                                                 name:@"callbackAfterMetadataInserted" object:nil];
+
     videoUrl = [[NSBundle mainBundle] URLForResource:@"sample" withExtension:@"mp4"];
-    metadataInjector* _metadataInjector=[[metadataInjector alloc] init];
-    videoUrl = [_metadataInjector insertMetadataWithMovie:videoUrl];
     
-    // Do any additional setup after loading the view, typically from a nib.
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    NSString* resultPath=[documentsDirectory stringByAppendingPathComponent:@"resultvideo.mp4"];
+   
+    dispatch_semaphore_t sem = dispatch_semaphore_create(0);
+    [MetadataInjector injectMetadataWithInputURL:videoUrl withOutputURL:[NSURL fileURLWithPath:resultPath] withSem:sem];
+    dispatch_semaphore_wait(sem, DISPATCH_TIME_FOREVER);
+    [self saveVideoToPhotosWithURL:[NSURL fileURLWithPath:resultPath]];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -31,11 +34,11 @@ NSURL* videoUrl;
     // Dispose of any resources that can be recreated.
 }
 
--(void)callbackAfterMetadataInserted:(NSNotification *)note
+-(void)saveVideoToPhotosWithURL:(NSURL*)url
 {
     [[PHPhotoLibrary sharedPhotoLibrary] performChanges:^{
         
-        PHAssetChangeRequest* createAssetRequest = [PHAssetChangeRequest creationRequestForAssetFromVideoAtFileURL:videoUrl];
+        PHAssetChangeRequest* createAssetRequest = [PHAssetChangeRequest creationRequestForAssetFromVideoAtFileURL:url];
         PHObjectPlaceholder* placeholder = [createAssetRequest placeholderForCreatedAsset];
         
     } completionHandler:^(BOOL success, NSError *error) {
@@ -53,6 +56,5 @@ NSURL* videoUrl;
 -(void)viewDidDisappear:(BOOL)animated
 {
     [super viewDidDisappear:NO];
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:@"callbackAfterMetadataInserted" object:nil];
 }
 @end

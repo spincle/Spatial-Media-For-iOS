@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "metadataInjector.h"
+#import "MetadataInjector.h"
 
 @import Photos;
 

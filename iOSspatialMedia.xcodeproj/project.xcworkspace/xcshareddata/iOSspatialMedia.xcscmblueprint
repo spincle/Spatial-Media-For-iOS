@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F7A55286D5A3C5C58F9F768244935AFFD023E640",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0C79DD0AFDE9835F8E29DA03761D2EF917AF79B4" : 9223372036854775807,
+    "F7A55286D5A3C5C58F9F768244935AFFD023E640" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "06E31A64-A307-45ED-953E-0D267C88D14C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0C79DD0AFDE9835F8E29DA03761D2EF917AF79B4" : "spincle2.0\/",
+    "F7A55286D5A3C5C58F9F768244935AFFD023E640" : "Spatial-Media-For-iOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iOSspatialMedia",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iOSspatialMedia.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/holuminoSpincle\/spincle2.0.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0C79DD0AFDE9835F8E29DA03761D2EF917AF79B4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/spincle\/Spatial-Media-For-iOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F7A55286D5A3C5C58F9F768244935AFFD023E640"
+    }
+  ]
+}
