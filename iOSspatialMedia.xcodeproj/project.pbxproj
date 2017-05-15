@@ -8,24 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EA390C1C1DFDBA8200074A22 /* sample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EA390C1A1DFDB01700074A22 /* sample.mp4 */; };
-		EA7905E71EC3645E005A6F26 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EA7905C71EC3645E005A6F26 /* LICENSE */; };
-		EA7905E81EC3645E005A6F26 /* metadata_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7905C81EC3645E005A6F26 /* metadata_utils.cpp */; };
-		EA7905E91EC3645E005A6F26 /* box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7905CA1EC3645E005A6F26 /* box.cpp */; };
-		EA7905EA1EC3645E005A6F26 /* container.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7905CD1EC3645E005A6F26 /* container.cpp */; };
-		EA7905EB1EC3645E005A6F26 /* mpeg4_container.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7905CF1EC3645E005A6F26 /* mpeg4_container.cpp */; };
-		EA7905EC1EC3645E005A6F26 /* sa3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7905D11EC3645E005A6F26 /* sa3d.cpp */; };
-		EA7905ED1EC3645E005A6F26 /* mxml-attr.c in Sources */ = {isa = PBXBuildFile; fileRef = EA7905D51EC3645E005A6F26 /* mxml-attr.c */; };
-		EA7905EE1EC3645E005A6F26 /* mxml-entity.c in Sources */ = {isa = PBXBuildFile; fileRef = EA7905D61EC3645E005A6F26 /* mxml-entity.c */; };
-		EA7905EF1EC3645E005A6F26 /* mxml-file.c in Sources */ = {isa = PBXBuildFile; fileRef = EA7905D71EC3645E005A6F26 /* mxml-file.c */; };
-		EA7905F01EC3645E005A6F26 /* mxml-get.c in Sources */ = {isa = PBXBuildFile; fileRef = EA7905D81EC3645E005A6F26 /* mxml-get.c */; };
-		EA7905F11EC3645E005A6F26 /* mxml-index.c in Sources */ = {isa = PBXBuildFile; fileRef = EA7905D91EC3645E005A6F26 /* mxml-index.c */; };
-		EA7905F21EC3645E005A6F26 /* mxml-node.c in Sources */ = {isa = PBXBuildFile; fileRef = EA7905DA1EC3645E005A6F26 /* mxml-node.c */; };
-		EA7905F31EC3645E005A6F26 /* mxml-private.c in Sources */ = {isa = PBXBuildFile; fileRef = EA7905DB1EC3645E005A6F26 /* mxml-private.c */; };
-		EA7905F41EC3645E005A6F26 /* mxml-search.c in Sources */ = {isa = PBXBuildFile; fileRef = EA7905DD1EC3645E005A6F26 /* mxml-search.c */; };
-		EA7905F51EC3645E005A6F26 /* mxml-set.c in Sources */ = {isa = PBXBuildFile; fileRef = EA7905DE1EC3645E005A6F26 /* mxml-set.c */; };
-		EA7905F61EC3645E005A6F26 /* mxml-string.c in Sources */ = {isa = PBXBuildFile; fileRef = EA7905DF1EC3645E005A6F26 /* mxml-string.c */; };
-		EA7905F71EC3645E005A6F26 /* parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7905E21EC3645E005A6F26 /* parser.cpp */; };
-		EA7905F81EC3645E005A6F26 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EA7905E51EC3645E005A6F26 /* README.md */; };
 		EA7905FB1EC364B0005A6F26 /* MetadataInjector.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA7905FA1EC364B0005A6F26 /* MetadataInjector.mm */; };
 		EA96F76F1DF452B000BA8A21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA96F76E1DF452B000BA8A21 /* main.m */; };
 		EA96F7721DF452B000BA8A21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA96F7711DF452B000BA8A21 /* AppDelegate.m */; };
@@ -35,6 +17,24 @@
 		EA96F77D1DF452B000BA8A21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA96F77B1DF452B000BA8A21 /* LaunchScreen.storyboard */; };
 		EA96F7881DF452B000BA8A21 /* iOSspatialMediaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA96F7871DF452B000BA8A21 /* iOSspatialMediaTests.m */; };
 		EA96F7931DF452B000BA8A21 /* iOSspatialMediaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA96F7921DF452B000BA8A21 /* iOSspatialMediaUITests.m */; };
+		EAA96BEB1EC9D5FF00D6883E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EAA96BCC1EC9D5FF00D6883E /* LICENSE */; };
+		EAA96BEC1EC9D5FF00D6883E /* metadata_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAA96BCD1EC9D5FF00D6883E /* metadata_utils.cpp */; };
+		EAA96BED1EC9D5FF00D6883E /* box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAA96BD01EC9D5FF00D6883E /* box.cpp */; };
+		EAA96BEE1EC9D5FF00D6883E /* container.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAA96BD31EC9D5FF00D6883E /* container.cpp */; };
+		EAA96BEF1EC9D5FF00D6883E /* mpeg4_container.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAA96BD51EC9D5FF00D6883E /* mpeg4_container.cpp */; };
+		EAA96BF01EC9D5FF00D6883E /* sa3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAA96BD71EC9D5FF00D6883E /* sa3d.cpp */; };
+		EAA96BF11EC9D5FF00D6883E /* mxml-attr.c in Sources */ = {isa = PBXBuildFile; fileRef = EAA96BDB1EC9D5FF00D6883E /* mxml-attr.c */; };
+		EAA96BF21EC9D5FF00D6883E /* mxml-entity.c in Sources */ = {isa = PBXBuildFile; fileRef = EAA96BDC1EC9D5FF00D6883E /* mxml-entity.c */; };
+		EAA96BF31EC9D5FF00D6883E /* mxml-file.c in Sources */ = {isa = PBXBuildFile; fileRef = EAA96BDD1EC9D5FF00D6883E /* mxml-file.c */; };
+		EAA96BF41EC9D5FF00D6883E /* mxml-get.c in Sources */ = {isa = PBXBuildFile; fileRef = EAA96BDE1EC9D5FF00D6883E /* mxml-get.c */; };
+		EAA96BF51EC9D5FF00D6883E /* mxml-index.c in Sources */ = {isa = PBXBuildFile; fileRef = EAA96BDF1EC9D5FF00D6883E /* mxml-index.c */; };
+		EAA96BF61EC9D5FF00D6883E /* mxml-node.c in Sources */ = {isa = PBXBuildFile; fileRef = EAA96BE01EC9D5FF00D6883E /* mxml-node.c */; };
+		EAA96BF71EC9D5FF00D6883E /* mxml-private.c in Sources */ = {isa = PBXBuildFile; fileRef = EAA96BE11EC9D5FF00D6883E /* mxml-private.c */; };
+		EAA96BF81EC9D5FF00D6883E /* mxml-search.c in Sources */ = {isa = PBXBuildFile; fileRef = EAA96BE31EC9D5FF00D6883E /* mxml-search.c */; };
+		EAA96BF91EC9D5FF00D6883E /* mxml-set.c in Sources */ = {isa = PBXBuildFile; fileRef = EAA96BE41EC9D5FF00D6883E /* mxml-set.c */; };
+		EAA96BFA1EC9D5FF00D6883E /* mxml-string.c in Sources */ = {isa = PBXBuildFile; fileRef = EAA96BE51EC9D5FF00D6883E /* mxml-string.c */; };
+		EAA96BFB1EC9D5FF00D6883E /* parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAA96BE71EC9D5FF00D6883E /* parser.cpp */; };
+		EAA96BFC1EC9D5FF00D6883E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EAA96BEA1EC9D5FF00D6883E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,35 +69,6 @@
 
 /* Begin PBXFileReference section */
 		EA390C1A1DFDB01700074A22 /* sample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.mp4; sourceTree = "<group>"; };
-		EA7905C71EC3645E005A6F26 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		EA7905C81EC3645E005A6F26 /* metadata_utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = metadata_utils.cpp; sourceTree = "<group>"; };
-		EA7905C91EC3645E005A6F26 /* metadata_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metadata_utils.h; sourceTree = "<group>"; };
-		EA7905CA1EC3645E005A6F26 /* box.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = box.cpp; sourceTree = "<group>"; };
-		EA7905CB1EC3645E005A6F26 /* box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = box.h; sourceTree = "<group>"; };
-		EA7905CC1EC3645E005A6F26 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
-		EA7905CD1EC3645E005A6F26 /* container.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = container.cpp; sourceTree = "<group>"; };
-		EA7905CE1EC3645E005A6F26 /* container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = container.h; sourceTree = "<group>"; };
-		EA7905CF1EC3645E005A6F26 /* mpeg4_container.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mpeg4_container.cpp; sourceTree = "<group>"; };
-		EA7905D01EC3645E005A6F26 /* mpeg4_container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mpeg4_container.h; sourceTree = "<group>"; };
-		EA7905D11EC3645E005A6F26 /* sa3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sa3d.cpp; sourceTree = "<group>"; };
-		EA7905D21EC3645E005A6F26 /* sa3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sa3d.h; sourceTree = "<group>"; };
-		EA7905D41EC3645E005A6F26 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
-		EA7905D51EC3645E005A6F26 /* mxml-attr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "mxml-attr.c"; sourceTree = "<group>"; };
-		EA7905D61EC3645E005A6F26 /* mxml-entity.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "mxml-entity.c"; sourceTree = "<group>"; };
-		EA7905D71EC3645E005A6F26 /* mxml-file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "mxml-file.c"; sourceTree = "<group>"; };
-		EA7905D81EC3645E005A6F26 /* mxml-get.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "mxml-get.c"; sourceTree = "<group>"; };
-		EA7905D91EC3645E005A6F26 /* mxml-index.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "mxml-index.c"; sourceTree = "<group>"; };
-		EA7905DA1EC3645E005A6F26 /* mxml-node.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "mxml-node.c"; sourceTree = "<group>"; };
-		EA7905DB1EC3645E005A6F26 /* mxml-private.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "mxml-private.c"; sourceTree = "<group>"; };
-		EA7905DC1EC3645E005A6F26 /* mxml-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "mxml-private.h"; sourceTree = "<group>"; };
-		EA7905DD1EC3645E005A6F26 /* mxml-search.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "mxml-search.c"; sourceTree = "<group>"; };
-		EA7905DE1EC3645E005A6F26 /* mxml-set.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "mxml-set.c"; sourceTree = "<group>"; };
-		EA7905DF1EC3645E005A6F26 /* mxml-string.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "mxml-string.c"; sourceTree = "<group>"; };
-		EA7905E01EC3645E005A6F26 /* mxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mxml.h; sourceTree = "<group>"; };
-		EA7905E21EC3645E005A6F26 /* parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = parser.cpp; sourceTree = "<group>"; };
-		EA7905E31EC3645E005A6F26 /* parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parser.h; sourceTree = "<group>"; };
-		EA7905E41EC3645E005A6F26 /* portable_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = portable_endian.h; sourceTree = "<group>"; };
-		EA7905E51EC3645E005A6F26 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EA7905F91EC364B0005A6F26 /* MetadataInjector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetadataInjector.h; sourceTree = "<group>"; };
 		EA7905FA1EC364B0005A6F26 /* MetadataInjector.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MetadataInjector.mm; sourceTree = "<group>"; };
 		EA96F76A1DF452B000BA8A21 /* iOSspatialMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSspatialMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +87,35 @@
 		EA96F78E1DF452B000BA8A21 /* iOSspatialMediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSspatialMediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA96F7921DF452B000BA8A21 /* iOSspatialMediaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSspatialMediaUITests.m; sourceTree = "<group>"; };
 		EA96F7941DF452B000BA8A21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA96BCC1EC9D5FF00D6883E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EAA96BCD1EC9D5FF00D6883E /* metadata_utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = metadata_utils.cpp; sourceTree = "<group>"; };
+		EAA96BCE1EC9D5FF00D6883E /* metadata_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metadata_utils.h; sourceTree = "<group>"; };
+		EAA96BD01EC9D5FF00D6883E /* box.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = box.cpp; sourceTree = "<group>"; };
+		EAA96BD11EC9D5FF00D6883E /* box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = box.h; sourceTree = "<group>"; };
+		EAA96BD21EC9D5FF00D6883E /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		EAA96BD31EC9D5FF00D6883E /* container.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = container.cpp; sourceTree = "<group>"; };
+		EAA96BD41EC9D5FF00D6883E /* container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = container.h; sourceTree = "<group>"; };
+		EAA96BD51EC9D5FF00D6883E /* mpeg4_container.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mpeg4_container.cpp; sourceTree = "<group>"; };
+		EAA96BD61EC9D5FF00D6883E /* mpeg4_container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mpeg4_container.h; sourceTree = "<group>"; };
+		EAA96BD71EC9D5FF00D6883E /* sa3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sa3d.cpp; sourceTree = "<group>"; };
+		EAA96BD81EC9D5FF00D6883E /* sa3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sa3d.h; sourceTree = "<group>"; };
+		EAA96BDA1EC9D5FF00D6883E /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		EAA96BDB1EC9D5FF00D6883E /* mxml-attr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "mxml-attr.c"; sourceTree = "<group>"; };
+		EAA96BDC1EC9D5FF00D6883E /* mxml-entity.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "mxml-entity.c"; sourceTree = "<group>"; };
+		EAA96BDD1EC9D5FF00D6883E /* mxml-file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "mxml-file.c"; sourceTree = "<group>"; };
+		EAA96BDE1EC9D5FF00D6883E /* mxml-get.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "mxml-get.c"; sourceTree = "<group>"; };
+		EAA96BDF1EC9D5FF00D6883E /* mxml-index.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "mxml-index.c"; sourceTree = "<group>"; };
+		EAA96BE01EC9D5FF00D6883E /* mxml-node.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "mxml-node.c"; sourceTree = "<group>"; };
+		EAA96BE11EC9D5FF00D6883E /* mxml-private.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "mxml-private.c"; sourceTree = "<group>"; };
+		EAA96BE21EC9D5FF00D6883E /* mxml-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "mxml-private.h"; sourceTree = "<group>"; };
+		EAA96BE31EC9D5FF00D6883E /* mxml-search.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "mxml-search.c"; sourceTree = "<group>"; };
+		EAA96BE41EC9D5FF00D6883E /* mxml-set.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "mxml-set.c"; sourceTree = "<group>"; };
+		EAA96BE51EC9D5FF00D6883E /* mxml-string.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "mxml-string.c"; sourceTree = "<group>"; };
+		EAA96BE61EC9D5FF00D6883E /* mxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mxml.h; sourceTree = "<group>"; };
+		EAA96BE71EC9D5FF00D6883E /* parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = parser.cpp; sourceTree = "<group>"; };
+		EAA96BE81EC9D5FF00D6883E /* parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parser.h; sourceTree = "<group>"; };
+		EAA96BE91EC9D5FF00D6883E /* portable_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = portable_endian.h; sourceTree = "<group>"; };
+		EAA96BEA1EC9D5FF00D6883E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,63 +143,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EA7905D31EC3645E005A6F26 /* mpeg */ = {
-			isa = PBXGroup;
-			children = (
-				EA7905CA1EC3645E005A6F26 /* box.cpp */,
-				EA7905CB1EC3645E005A6F26 /* box.h */,
-				EA7905CC1EC3645E005A6F26 /* constants.h */,
-				EA7905CD1EC3645E005A6F26 /* container.cpp */,
-				EA7905CE1EC3645E005A6F26 /* container.h */,
-				EA7905CF1EC3645E005A6F26 /* mpeg4_container.cpp */,
-				EA7905D01EC3645E005A6F26 /* mpeg4_container.h */,
-				EA7905D11EC3645E005A6F26 /* sa3d.cpp */,
-				EA7905D21EC3645E005A6F26 /* sa3d.h */,
-			);
-			path = mpeg;
-			sourceTree = "<group>";
-		};
-		EA7905E11EC3645E005A6F26 /* mxml-2.10 */ = {
-			isa = PBXGroup;
-			children = (
-				EA7905D41EC3645E005A6F26 /* config.h */,
-				EA7905D51EC3645E005A6F26 /* mxml-attr.c */,
-				EA7905D61EC3645E005A6F26 /* mxml-entity.c */,
-				EA7905D71EC3645E005A6F26 /* mxml-file.c */,
-				EA7905D81EC3645E005A6F26 /* mxml-get.c */,
-				EA7905D91EC3645E005A6F26 /* mxml-index.c */,
-				EA7905DA1EC3645E005A6F26 /* mxml-node.c */,
-				EA7905DB1EC3645E005A6F26 /* mxml-private.c */,
-				EA7905DC1EC3645E005A6F26 /* mxml-private.h */,
-				EA7905DD1EC3645E005A6F26 /* mxml-search.c */,
-				EA7905DE1EC3645E005A6F26 /* mxml-set.c */,
-				EA7905DF1EC3645E005A6F26 /* mxml-string.c */,
-				EA7905E01EC3645E005A6F26 /* mxml.h */,
-			);
-			path = "mxml-2.10";
-			sourceTree = "<group>";
-		};
-		EA7905E61EC3645E005A6F26 /* spatialmedia */ = {
-			isa = PBXGroup;
-			children = (
-				EA7905C71EC3645E005A6F26 /* LICENSE */,
-				EA7905C81EC3645E005A6F26 /* metadata_utils.cpp */,
-				EA7905C91EC3645E005A6F26 /* metadata_utils.h */,
-				EA7905D31EC3645E005A6F26 /* mpeg */,
-				EA7905E11EC3645E005A6F26 /* mxml-2.10 */,
-				EA7905E21EC3645E005A6F26 /* parser.cpp */,
-				EA7905E31EC3645E005A6F26 /* parser.h */,
-				EA7905E41EC3645E005A6F26 /* portable_endian.h */,
-				EA7905E51EC3645E005A6F26 /* README.md */,
-			);
-			name = spatialmedia;
-			path = ../spincle2.0/spatialmedia;
-			sourceTree = "<group>";
-		};
 		EA96F7611DF452B000BA8A21 = {
 			isa = PBXGroup;
 			children = (
-				EA7905E61EC3645E005A6F26 /* spatialmedia */,
+				EAA96BCB1EC9D5FF00D6883E /* spatialmedia */,
 				EA96F76C1DF452B000BA8A21 /* iOSspatialMedia */,
 				EA96F7861DF452B000BA8A21 /* iOSspatialMediaTests */,
 				EA96F7911DF452B000BA8A21 /* iOSspatialMediaUITests */,
@@ -260,6 +207,58 @@
 				EA96F7941DF452B000BA8A21 /* Info.plist */,
 			);
 			path = iOSspatialMediaUITests;
+			sourceTree = "<group>";
+		};
+		EAA96BCB1EC9D5FF00D6883E /* spatialmedia */ = {
+			isa = PBXGroup;
+			children = (
+				EAA96BCC1EC9D5FF00D6883E /* LICENSE */,
+				EAA96BCD1EC9D5FF00D6883E /* metadata_utils.cpp */,
+				EAA96BCE1EC9D5FF00D6883E /* metadata_utils.h */,
+				EAA96BCF1EC9D5FF00D6883E /* mpeg */,
+				EAA96BD91EC9D5FF00D6883E /* mxml-2.10 */,
+				EAA96BE71EC9D5FF00D6883E /* parser.cpp */,
+				EAA96BE81EC9D5FF00D6883E /* parser.h */,
+				EAA96BE91EC9D5FF00D6883E /* portable_endian.h */,
+				EAA96BEA1EC9D5FF00D6883E /* README.md */,
+			);
+			path = spatialmedia;
+			sourceTree = "<group>";
+		};
+		EAA96BCF1EC9D5FF00D6883E /* mpeg */ = {
+			isa = PBXGroup;
+			children = (
+				EAA96BD01EC9D5FF00D6883E /* box.cpp */,
+				EAA96BD11EC9D5FF00D6883E /* box.h */,
+				EAA96BD21EC9D5FF00D6883E /* constants.h */,
+				EAA96BD31EC9D5FF00D6883E /* container.cpp */,
+				EAA96BD41EC9D5FF00D6883E /* container.h */,
+				EAA96BD51EC9D5FF00D6883E /* mpeg4_container.cpp */,
+				EAA96BD61EC9D5FF00D6883E /* mpeg4_container.h */,
+				EAA96BD71EC9D5FF00D6883E /* sa3d.cpp */,
+				EAA96BD81EC9D5FF00D6883E /* sa3d.h */,
+			);
+			path = mpeg;
+			sourceTree = "<group>";
+		};
+		EAA96BD91EC9D5FF00D6883E /* mxml-2.10 */ = {
+			isa = PBXGroup;
+			children = (
+				EAA96BDA1EC9D5FF00D6883E /* config.h */,
+				EAA96BDB1EC9D5FF00D6883E /* mxml-attr.c */,
+				EAA96BDC1EC9D5FF00D6883E /* mxml-entity.c */,
+				EAA96BDD1EC9D5FF00D6883E /* mxml-file.c */,
+				EAA96BDE1EC9D5FF00D6883E /* mxml-get.c */,
+				EAA96BDF1EC9D5FF00D6883E /* mxml-index.c */,
+				EAA96BE01EC9D5FF00D6883E /* mxml-node.c */,
+				EAA96BE11EC9D5FF00D6883E /* mxml-private.c */,
+				EAA96BE21EC9D5FF00D6883E /* mxml-private.h */,
+				EAA96BE31EC9D5FF00D6883E /* mxml-search.c */,
+				EAA96BE41EC9D5FF00D6883E /* mxml-set.c */,
+				EAA96BE51EC9D5FF00D6883E /* mxml-string.c */,
+				EAA96BE61EC9D5FF00D6883E /* mxml.h */,
+			);
+			path = "mxml-2.10";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,7 +375,7 @@
 				EA96F77A1DF452B000BA8A21 /* Assets.xcassets in Resources */,
 				EA96F7781DF452B000BA8A21 /* Main.storyboard in Resources */,
 				EA390C1C1DFDBA8200074A22 /* sample.mp4 in Resources */,
-				EA7905E71EC3645E005A6F26 /* LICENSE in Resources */,
+				EAA96BEB1EC9D5FF00D6883E /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,27 +400,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA7905EE1EC3645E005A6F26 /* mxml-entity.c in Sources */,
-				EA7905F71EC3645E005A6F26 /* parser.cpp in Sources */,
-				EA7905F81EC3645E005A6F26 /* README.md in Sources */,
-				EA7905F31EC3645E005A6F26 /* mxml-private.c in Sources */,
-				EA7905E81EC3645E005A6F26 /* metadata_utils.cpp in Sources */,
-				EA7905EF1EC3645E005A6F26 /* mxml-file.c in Sources */,
-				EA7905EA1EC3645E005A6F26 /* container.cpp in Sources */,
-				EA7905EB1EC3645E005A6F26 /* mpeg4_container.cpp in Sources */,
-				EA7905F11EC3645E005A6F26 /* mxml-index.c in Sources */,
-				EA7905E91EC3645E005A6F26 /* box.cpp in Sources */,
-				EA7905ED1EC3645E005A6F26 /* mxml-attr.c in Sources */,
-				EA7905EC1EC3645E005A6F26 /* sa3d.cpp in Sources */,
-				EA7905F61EC3645E005A6F26 /* mxml-string.c in Sources */,
+				EAA96BFB1EC9D5FF00D6883E /* parser.cpp in Sources */,
+				EAA96BF11EC9D5FF00D6883E /* mxml-attr.c in Sources */,
+				EAA96BEC1EC9D5FF00D6883E /* metadata_utils.cpp in Sources */,
+				EAA96BFC1EC9D5FF00D6883E /* README.md in Sources */,
 				EA96F7751DF452B000BA8A21 /* ViewController.m in Sources */,
-				EA7905F51EC3645E005A6F26 /* mxml-set.c in Sources */,
+				EAA96BF01EC9D5FF00D6883E /* sa3d.cpp in Sources */,
+				EAA96BFA1EC9D5FF00D6883E /* mxml-string.c in Sources */,
+				EAA96BF91EC9D5FF00D6883E /* mxml-set.c in Sources */,
+				EAA96BF61EC9D5FF00D6883E /* mxml-node.c in Sources */,
+				EAA96BF71EC9D5FF00D6883E /* mxml-private.c in Sources */,
+				EAA96BF51EC9D5FF00D6883E /* mxml-index.c in Sources */,
 				EA96F7721DF452B000BA8A21 /* AppDelegate.m in Sources */,
-				EA7905F21EC3645E005A6F26 /* mxml-node.c in Sources */,
+				EAA96BEF1EC9D5FF00D6883E /* mpeg4_container.cpp in Sources */,
+				EAA96BF21EC9D5FF00D6883E /* mxml-entity.c in Sources */,
+				EAA96BF31EC9D5FF00D6883E /* mxml-file.c in Sources */,
+				EAA96BF41EC9D5FF00D6883E /* mxml-get.c in Sources */,
+				EAA96BF81EC9D5FF00D6883E /* mxml-search.c in Sources */,
+				EAA96BED1EC9D5FF00D6883E /* box.cpp in Sources */,
 				EA7905FB1EC364B0005A6F26 /* MetadataInjector.mm in Sources */,
-				EA7905F01EC3645E005A6F26 /* mxml-get.c in Sources */,
+				EAA96BEE1EC9D5FF00D6883E /* container.cpp in Sources */,
 				EA96F76F1DF452B000BA8A21 /* main.m in Sources */,
-				EA7905F41EC3645E005A6F26 /* mxml-search.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

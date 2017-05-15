@@ -10,7 +10,7 @@
 
 @implementation MetadataInjector
 
-
++(void)injectMetadataWithInputURL:(NSURL*)inputUrl withOutputURL:(NSURL*)outputUrl withSem:(dispatch_semaphore_t)sem
 {
     std::string inputPath = std::string([[inputUrl path] UTF8String]);
     
